@@ -33,3 +33,6 @@ function switchItUp(number){
           break;
     }
 }
+
+// Updated version with Regex
+switchItUp=n=>["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"][n]
