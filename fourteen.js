@@ -11,3 +11,8 @@ function digitize(n) {
   // Reversing array items
   return array.reverse()
 }
+
+// Updated version
+function digitize(n) {
+  return String(n).split('').map(Number).reverse()
+}
