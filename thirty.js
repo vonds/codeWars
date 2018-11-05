@@ -12,3 +12,16 @@ const basicOp = (o, x, y) => {
   else if (o === '*') return x * y
   else if (o === '/') return x / y
 }
+
+// Alterntive
+
+const basicOperations = {
+  '+': (a,b) => a + b,
+  '-': (a,b) => a - b,
+  '*': (a,b) => a * b,
+  '/': (a,b) => a / b,
+}
+
+// Alternative 2
+
+basicOp = (operation, value1, value2) => eval( `${value1} ${operation} ${value2}` )
