@@ -12,4 +12,3 @@ const factorial = num => {
   
   const amIWilson = p => Number.isInteger((factorial(p - 1) + 1) / (p * p))
 
-  // Alternative

@@ -8,3 +8,5 @@ function isDivisible(n, x, y){
   // Next I used the ternary operator to return a boolean
   return (n % x === 0 && n % y === 0) ? true: false
 }
+
+ const isDivisible = (n, x, y) => n % y === 0 && n % x === 0 ? true : false
