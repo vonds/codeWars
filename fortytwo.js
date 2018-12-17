@@ -15,8 +15,7 @@ const removeEveryOther = arr => {
         }
     })
     // return the new array with the even i remo
-    return answer
+    return answer;
 }
-
 
 
